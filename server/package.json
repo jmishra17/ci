@@ -25,7 +25,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "debug": "node debug app.js"
+    "debug": "node debug app.js",
+    "mocha-test": "mocha"
   },
   "main": "app.js",
   "repository": {
@@ -33,5 +34,9 @@
     "url": "git://github.com/jasper.mishra/server.git"
   },
   "author": "jasper.mishra",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
+  }
 }
